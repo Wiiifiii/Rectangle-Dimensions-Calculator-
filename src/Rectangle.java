@@ -8,28 +8,31 @@ import java.util.Scanner;
 */
 
 public class Rectangle {
-    // The member variables
+    // The member variables.
     private double hight;
     private double width;
 
-    // Ask the hight and width
+    // Ask the hight and width.
     public void inputMeasurements() {
+    // Create a Scanner object for reading input.
         try (Scanner scan = new Scanner(System.in)) {
-            
+    // Prompt the user for width and height.
             System.out.print("Enter the height of the rectangle (m): ");
+    // Store the user's input in the height field.
             hight = scan.nextDouble();
-          
+    // Prompt the user for width.
             System.out.print("Enter the width of the rectangle (m): ");
+    // Store the user's input in the width field.
             width = scan.nextDouble();
         }
     }
 
-    // Calculate the area of the rectangle
+    // Method to calculate the area of the rectangle.
     public double calculateArea() {
         return hight * width;
     }
 
-    // print out height,width,and area
+    // Method to print the details of the rectangle: width, height, and calculated area.
     public void calculationresults() {
 
         System.out.println("The rectangle hight (l) = " + hight + " m");
