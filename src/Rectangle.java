@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-/*  1. Make a Java program (console application) which can be used to ask width and height for a rectangle. 
+/*  Make a Java program (console application) which can be used to ask width and height for a rectangle. 
     Based on width and height program calculates area. Implement a class that contains all the necessary 
     fields (or member variables). Class should also have member methods to ask values to height/width, 
     to calculate are and to print out height/width and area. Implement also a test code which you use to test the class
