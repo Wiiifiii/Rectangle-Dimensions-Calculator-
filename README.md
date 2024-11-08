@@ -1,45 +1,43 @@
-RectangleDimensionsApp: Java Console Application
-Project Overview
+# RectangleDimensionsApp: Java Console Application
 
-This Java console application prompts the user for the width and height of a rectangle, calculates the area, and displays the results. It includes a Rectangle class with methods to set dimensions, compute the area, and print the values. A test class demonstrates the functionality.
-Features
+## Project Overview
+This Java console application prompts the user for the width and height of a rectangle, calculates the area, and displays the results. It includes a `Rectangle` class with methods to set dimensions, compute the area, and print the values. A test class demonstrates the functionality.
 
-    User Input: Prompts the user to input the width and height of a rectangle.
-    Area Calculation: Computes the area of the rectangle based on user input.
-    Result Display: Displays the calculated area to the user.
-    Rectangle Class: Encapsulates the properties and methods related to rectangle dimensions and area calculation.
-    Test Class: Demonstrates the functionality of the Rectangle class.
+## Features
+- **User Input**: Prompts the user to input the width and height of a rectangle.
+- **Area Calculation**: Computes the area of the rectangle based on user input.
+- **Result Display**: Displays the calculated area to the user.
+- **Rectangle Class**: Encapsulates the properties and methods related to rectangle dimensions and area calculation.
+- **Test Class**: Demonstrates the functionality of the `Rectangle` class.
 
-Project Structure
-Main Components:
+## Project Structure
 
-    Java Source Files: Located in the src folder.
-        Rectangle.java: Contains methods to set dimensions, compute the area, and print the values.
-        RectangleTest.java: Demonstrates the functionality of the Rectangle class.
-    Dependencies: Managed in the lib folder.
-    Compiled Output: Generated in the bin folder by default.
+### Main Components:
+1. **Java Source Files**: Located in the `src` folder.
+    - `Rectangle.java`: Contains methods to set dimensions, compute the area, and print the values.
+    - `RectangleTest.java`: Demonstrates the functionality of the `Rectangle` class.
+2. **Dependencies**: Managed in the `lib` folder.
+3. **Compiled Output**: Generated in the `bin` folder by default.
 
-Getting Started
-Prerequisites:
+## Getting Started
 
-    Visual Studio Code (latest version)
-    Java Development Kit (JDK)
+### Prerequisites:
+- **Visual Studio Code** (latest version)
+- **Java Development Kit (JDK)**
 
-Steps to Run the Project:
+### Steps to Run the Project:
 
-    Open the Project:
-        Open Visual Studio Code.
-        Select File > Open Folder.
-        Navigate to the RectangleDimensionsApp folder and open it.
+1. **Open the Project**:
+    - Open **Visual Studio Code**.
+    - Select **File > Open Folder**.
+    - Navigate to the **RectangleDimensionsApp** folder and open it.
 
-    Run the Project:
-        Open a Java file from the src folder.
-        Click the Run button in the top-right corner of the editor or press F5.
+2. **Run the Project**:
+    - Open a Java file from the `src` folder.
+    - Click the **Run** button in the top-right corner of the editor or press **F5**.
 
-Dependency Management:
+### Dependency Management:
+- Use the `JAVA PROJECTS` view in Visual Studio Code to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
-    Use the JAVA PROJECTS view in Visual Studio Code to manage your dependencies. More details can be found here.
-
-License
-
+## License
 This project is licensed under the MIT License.
